@@ -4,109 +4,209 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
-    <title>Le Shopping Cart</title>
+    <title>Supermarket Carts</title>
   </head>
   <body>
     <header>
       <nav>
-        <div class="menu-icon" id="menu-icon">
-          <a href="#menu">
-  &#9776; 
-</a>
+        <div class="logo">
+          <h1>SUPERCARTS</h1>
         </div>
-        <ul class="nav-list" id="nav-list">
+        <ul class="nav-list">
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Modelos</a></li>
           <li><a href="#">Nosotros</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
-        <p>Explore the magic of shopping carts</p>
+        <div class="burguer-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
       </nav>
-    <section id="firstBanner">
-      <div class="banner-container">
-        <img
-          src="./resources/shopping-carts-1275480_1280.jpg"
-          alt="Shopping carts in a row" />
-          <div class="text-container">
-            <p>
-              A shopping cart is more than just a tool; it's your ultimate
-              companion for making every shopping experience efficient, stylish,
-              and memorable.
-            </p>
+    </header>
+
+    <section id="hero">
+      <div class="hero-container">
+        <h2>Innovación en cada rueda</h2>
+        <p>
+          Descubre los carros de supermercado más avanzados, diseñados para
+          hacer tu experiencia de compra más cómoda y eficiente.
+        </p>
+        <button>Explorar Modelos</button>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Características Destacadas</h2>
+      <div class="features-container">
+        <div class="feature">
+          <img
+            src="./resources/card1image.png"
+            alt="Carro ergonómico" />
+          <h3>Diseño Ergonómico</h3>
+          <p>
+            Nuestros carros están diseñados para ofrecer la máxima comodidad y
+            facilidad de uso.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="./resources/durabilidadimage.jpg"
+            alt="Carro resistente" />
+          <h3>Durabilidad</h3>
+          <p>
+            Fabricados con materiales de alta calidad para resistir el uso
+            diario.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_full_wi_1.jpg"
+            alt="Carro innovador" />
+          <h3>Tecnología Innovadora</h3>
+          <p>
+            Equipados con ruedas silenciosas y sistemas de seguridad avanzados.
+          </p>
+        </div>
+        <div class="feature">
+          <img
+            src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_full_wi_2.jpg"
+            alt="Carro innovador" />
+          <h3>Tecnología Innovadora</h3>
+          <p>
+            Equipados con ruedas silenciosas y sistemas de seguridad avanzados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="models">
+      <h2>Modelos Disponibles</h2>
+      <div class="models-container">
+        <div class="model">
+          <img
+            src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_i_3_dif_1.jpg"
+            alt="Carro compacto" />
+          <h3>Compacto</h3>
+          <p>Ideal para tiendas pequeñas y espacios reducidos.</p>
+          <button>Ver Más</button>
+        </div>
+        <div class="model">
+          <img
+            src="./resources/shopping-carts-1275480_1280.jpg"
+            alt="Carro familiar" />
+          <h3>Familiar</h3>
+          <p>Perfecto para grandes compras con toda la familia.</p>
+          <button>Ver Más</button>
+        </div>
+        <div class="model">
+          <img
+            src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_full_wi_2.jpg"
+            alt="Carro familiar" />
+          <h3>Familiar</h3>
+          <p>Perfecto para grandes compras con toda la familia.</p>
+          <button>Ver Más</button>
+        </div>
+        <div class="model">
+          <img
+            src="./resources/shopping-venture-53798_1280.jpg"
+            alt="Carro premium" />
+          <h3>Premium</h3>
+          <p>Un diseño elegante para una experiencia de compra de lujo.</p>
+          <button>Ver Más</button>
+        </div>
+      </div>
+    </section>
+    <section id="locations">
+      <h2>Encuentra Nuestros Carros</h2>
+      <div class="locations-banner">
+        <img src="./resources/nasa-lightsnight-world.webp" alt="night-map" />
+        <div class="locations-text">
+          <h3>Distribuidores en Todo el Mundo</h3>
+          <p>
+            Encuentra nuestros carros en tiendas de todo el mundo. Visita
+            nuestro sitio web para más información.
+          </p>
+          <button class="locations-button">Encuéntranos</button>
+      </div>
+    </section>
+    <section id="carousel">
+      <h2>Explora Nuestros Carros</h2>
+      <div class="carousel-container">
+        <input type="radio" name="carousel" id="slide1" checked />
+        <input type="radio" name="carousel" id="slide2" />
+        <input type="radio" name="carousel" id="slide3" />
+
+        <div class="carousel-slides">
+          <div class="carousel-slide">
+            <img
+              src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_full_wi_3.jpg"
+              alt="Carro moderno 1" />
           </div>
-      </div>
-    </section>
-  <section id="boxesSection">
-  <div class="boxes-container">
-    <div class="boxes-container-image">
-      <img src="./resources/pexels-allanfranca-3070295.jpg" alt="A stylish shopping cart" />
-      <div class="text-container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam enim at similique </p>
-        <button class="box-button">Learn More</button>
-      </div>
-    </div>
-    <div class="boxes-container-image">
-      <img src="./resources/pexels-edward-1845249-3427609.jpg" alt="Colorful shopping carts" />
-      <div class="text-container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam enim at similique </p>
-        <button class="box-button">Learn More</button>
-      </div>
-    </div>
-    <div class="boxes-container-image">
-      <img src="./resources/pexels-gustavo-fring-3985062.jpg" alt="A close-up of a modern shopping cart" />
-      <div class="text-container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam enim at similique </p>
-        <button class="box-button">Learn More</button>
-      </div>
-    </div>
-    <div class="boxes-container-image">
-      <img src="./resources/pexels-oandremoura-2473586.jpg" alt="Shopping carts in a store" />
-      <div class="text-container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quibusdam enim at similique </p>
-        <button class="box-button">Learn More</button>
-      </div>
-    </div>
-  </div>
-</section>
-    <section id="textImgTextSection">
-      <div class="banner-text-container">
-        <h3>Discover how carts simplify your life</h3>
-        <div class="second-banner-container">
-          <img
-            src="./resources/pexels-karolina-grabowska-5632386.jpg"
-            alt="A full shopping cart" />
+          <div class="carousel-slide">
+            <img
+              src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_i_3_dif_0.jpg"
+              alt="Carro moderno 2" />
+          </div>
+          <div class="carousel-slide">
+            <img
+              src="./resources/Leonardo_Kino_XL_a_banner_size_image_of_shopping_carts_with_a_3 (1).jpg"
+              alt="Carro moderno 3" />
+          </div>
         </div>
-        <h3>Carry your dreams, one cart at a time</h3>
-      </div>
-    </section>
-    <section>
-      <div class="banner-container">
-        <img
-          src="./resources/kisshopping.jpg"
-          alt="A person enjoying shopping" />
-      </div>
-    </section>
-    <section>
-      <div class="banner-container">
-        <img
-          src="./resources/shopping-venture-53798_1280.jpg"
-          alt="Shopping carts outdoors" />
-      </div>
-    </section>
-    <section>
-      <div class="two-box">
-        <div class="image-container">
-          <img
-            src="./resources/pexels-edward-1845249-3427609.jpg"
-            alt="An elegant shopping cart" />
+
+        <div class="carousel-navigation">
+          <label for="slide1" class="nav-dot"></label>
+          <label for="slide2" class="nav-dot"></label>
+          <label for="slide3" class="nav-dot"></label>
         </div>
-        
       </div>
     </section>
-    <footer>
-      <div>
-        <h3>Ready to own the cart of your dreams?</h3>
-        <button>Contact Us</button>
+
+    <section id="testimonials">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <p>
+            "Los carros de SuperCarts han transformado nuestra tienda. Son
+            cómodos, duraderos y muy atractivos."
+          </p>
+          <h4>- Juan Pérez</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            "La calidad de estos carros es insuperable. Nuestros clientes están
+            encantados."
+          </p>
+          <h4>- María López</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Sobre Nosotros</h3>
+          <p>
+            Somos líderes en la fabricación de carros de supermercado,
+            ofreciendo innovación y calidad.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Enlaces Rápidos</h3>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Modelos</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contáctanos</h3>
+          <p>Email: contacto@supercarts.com</p>
+          <p>Teléfono: +34 123 456 789</p>
+        </div>
       </div>
     </footer>
   </body>
